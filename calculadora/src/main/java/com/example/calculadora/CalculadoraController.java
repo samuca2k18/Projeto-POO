@@ -18,9 +18,9 @@ public class CalculadoraController {
             case "Primos":
                 return calcularPrimos(10).toString();
             case "Somatório":
-                return Integer.toString(somatorio(10));
+                return Integer.toString(somatorio(11));
             case "Fibonacci":
-                return Integer.toString(fibonacci(10));
+                return Integer.toString(fibonacci(14));
             case "MDC":
                 return Integer.toString(mdc(48, 18));
             case "QuickSort":
