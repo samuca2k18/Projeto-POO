@@ -21,22 +21,22 @@ function executarOperacaoJS(operacao) {
     let resultado = '';
     switch (operacao) {
         case 'Primos':
-            resultado = calcularPrimos(11); // exemplo para os primeiros 10 números
+            resultado = calcularPrimos(1); // exemplo para os primeiros 10 números
             break;
         case 'Somatório':
             resultado = somatorio(11); // somatório de 1 a 10
             break;
         case 'Fibonacci':
-            resultado = fibonacci(12); // décimo número de Fibonacci
+            resultado = fibonacci(2); // décimo número de Fibonacci
             break;
         case 'MDC':
-            resultado = mdc(48, 18); // exemplo com 48 e 18
+            resultado = mdc(48, 8); // exemplo com 48 e 18
             break;
         case 'QuickSort':
             resultado = quicksort([3, 6, 8, 10, 1, 2, 1]);
             break;
         case 'Contagem':
-            resultado = contagem([1, 2, 3, 4, 5]);
+            resultado = contagem([1, 2, 3, 4, 5, 6]);
             break;
         default:
             resultado = 'Operação não encontrada';
