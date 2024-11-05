@@ -33,10 +33,10 @@ function executarOperacaoJS(operacao) {
             resultado = mdc(48, 8); // exemplo com 48 e 18
             break;
         case 'QuickSort':
-            resultado = quicksort([3, 6, 8, 10, 1, 2, 1]);
+            resultado = quicksort([3, 6, 8, 10, 1, 2, 11]);
             break;
         case 'Contagem':
-            resultado = contagem([1, 2, 3, 4, 5, 6]);
+            resultado = contagem([1, 2, 3, 4, 5]);
             break;
         default:
             resultado = 'Operação não encontrada';
