@@ -21,10 +21,10 @@ function executarOperacaoJS(operacao) {
     let resultado = '';
     switch (operacao) {
         case 'Primos':
-            resultado = calcularPrimos(3); // exemplo para os primeiros 10 números
+            resultado = calcularPrimos(1); // exemplo para os primeiros 10 números
             break;
         case 'Somatório':
-            resultado = somatorio(6); // somatório de 1 a 10
+            resultado = somatorio(13); // somatório de 1 a 10
             break;
         case 'Fibonacci':
             resultado = fibonacci(2); // décimo número de Fibonacci
