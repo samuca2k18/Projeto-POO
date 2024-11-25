@@ -1,15 +1,39 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+     int a = -1;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+     while(a != 0){
+         System.out.println("Digite uma da opções");
+         System.out.println("[1] para alguma coisa");
+         System.out.println("[2] para alguma coisa");
+         System.out.println("[3] para outra coisa");
+         System.out.println("[4] para mais uma outra coisa");
+         System.out.println("[0] para sair");
+         Scanner prompt = new Scanner(System.in);
+
+         a = prompt.nextInt();
+
+         if(a == 1){
+             System.out.println("voce entrou no 1");
+
+         }
+         if(a == 2){
+             System.out.println("voce entrou no 2");
+
+         }
+         if(a == 3){
+             System.out.println("voce entrou no 3");
+
+         }
+         if(a == 4){
+             System.out.println("voce entrou no 4");
+
+         }
+
+     }
     }
 }
